@@ -26,3 +26,9 @@ const getWineCategoriesForFood = (foodId) => {
     .then((response) => handleRespone(response))
     .catch((error) => console.error({ error }))
 }
+
+const getAllWines = () => {
+  return fetch(`${url}/api/v1/wines`)
+    .then((response) => handleRespone(response))
+    .catch((error) => console.error({ error }))
+}
