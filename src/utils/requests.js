@@ -1,4 +1,4 @@
-const url = 'https://vinery-be.herokuapp.com/'
+const url = 'https://vinery-be.herokuapp.com'
 
 const handleRespone = (response) => {
   return resonse.json()
@@ -35,6 +35,12 @@ const getAllWines = () => {
 
 const getWine = (wineId) => {
   return fetch(`${url}/api/v1/wines/${wineId}`)
+    .then((response) => handleRespone(response))
+    .catch((error) => console.error({ error }))
+}
+
+const getAllWineCategories => () => {
+  return fetch(`${url}/api/v1/wine-categories`)
     .then((response) => handleRespone(response))
     .catch((error) => console.error({ error }))
 }
