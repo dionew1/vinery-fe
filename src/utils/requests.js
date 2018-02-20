@@ -44,3 +44,9 @@ const getAllWineCategories => () => {
     .then((response) => handleRespone(response))
     .catch((error) => console.error({ error }))
 }
+
+const getWinesForWineCategory => (wineCategoryId) {
+  return fetch(`${url}/api/v1/wine-categories/${wineCategoryId}/wines`)
+    .then((response) => handleRespone(response))
+    .catch((error) => console.error({ error }))
+}
