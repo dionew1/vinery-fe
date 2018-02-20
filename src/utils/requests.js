@@ -32,3 +32,9 @@ const getAllWines = () => {
     .then((response) => handleRespone(response))
     .catch((error) => console.error({ error }))
 }
+
+const getWine = (wineId) => {
+  return fetch(`${url}/api/v1/wines/${wineId}`)
+    .then((response) => handleRespone(response))
+    .catch((error) => console.error({ error }))
+}
