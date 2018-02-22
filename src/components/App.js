@@ -28,7 +28,7 @@ class App extends Component {
               <h1 className="Home-page-header">Browse Wines</h1>
               <p className="Home-page-paragraph">Come uncork a bottle and discover what wines suit your taste!</p>
               <img className="Home-page-image"
-                src="dark-corks-by-elisha-terada.jpg"
+                src="corks-by-elisha-terada.jpg"
                 alt="Wine Corks photo by Elisha Terada"/>
             </div>
             <div className="Home-page">
