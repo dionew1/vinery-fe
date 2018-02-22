@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Tangerine');
+
+.Home-page-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Home-page {
+  flex-direction: column;
+  width: 33%;
+  height: 100%;
+  margin: 10px;
+}
+
+.Home-page-header {
+  font-family: 'Tangerine', cursive;
+  font-size: 2.2em;
+}
+
+.Home-page-paragraph {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+}
+
+.Home-page-image {
+  height: 80%;
+  width: 80%;
+}
