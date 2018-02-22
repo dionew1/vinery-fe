@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Tangerine');
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Tangerine', cursive;*/
+
 .App {
   text-align: center;
 }
@@ -10,14 +14,39 @@
 }
 
 .App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
+  font-family: 'Tangerine', cursive;
+  font-size: 3em;
+  margin: 15px;
 }
 
 .App-glass {
-  width: 10%;
-  height: 50%;
+  width: 8%;
+  height: 40%;
+}
+
+.Container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Home-page {
+  flex-direction: column;
+  width: 33%;
+  height: 100%;
+  margin: 10px;
+}
+
+.Home-page-header {
+  font-family: 'Tangerine', cursive;
+  font-size: 2.2em;
+}
+
+.Home-page-paragraph {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.9em;
+}
+
+.Home-page-image {
+  height: 80%;
+  width: 80%;
 }
