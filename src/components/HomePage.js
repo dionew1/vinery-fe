@@ -11,14 +11,14 @@ const HomePage = () => {
           <p className="Home-page-paragraph">Not sure what style of wine you are looking for? Come explore!</p>
           <img className="Home-page-image"
             src="dusty-bottles-by-marco-mornati.jpg"
-            alt="Dusty Wine Bottles photo by Marco Mornati"/>
+            alt="Dusty Wine Bottles by Marco Mornati"/>
         </div>
         <div className="Home-page">
           <h1 className="Home-page-header">Browse Wines</h1>
           <p className="Home-page-paragraph">Come uncork a bottle and discover what wines suit your taste!</p>
           <img className="Home-page-image"
             src="corks-by-elisha-terada.jpg"
-            alt="Wine Corks photo by Elisha Terada"/>
+            alt="Wine Corks by Elisha Terada"/>
         </div>
         <div className="Home-page">
           <h1 className="Home-page-header">Browse Food Types</h1>
