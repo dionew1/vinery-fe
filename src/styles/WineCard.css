@@ -1,0 +1,18 @@
+.wine-category-row {
+  display: inline-block;
+  min-width: 150px;
+  margin: 10px;
+  padding: 50px;
+  background: #568259;
+  color: #eee;
+  font-family: Tangerine;
+  font-size: 28px;
+  border-radius: 3px;
+  border: 2px solid #568259;
+}
+
+.wine-category-row:hover {
+  color: #568259;
+  background: #eee;
+  box-shadow: 3px 3px 3px 3px #d1d2f9;
+}
