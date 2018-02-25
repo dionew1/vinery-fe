@@ -19,13 +19,7 @@ class App extends Component {
         <header className="app-header">
           <img className="app-glass" src="favicon.ico" alt="Wine Glass"/>
           <h1 className="app-title">Welcome to Vinery</h1>
-          <BrowserRouter>
-            <nav>
-              <Link to="/wine-categories"> Wine Categories </Link>
-              <Link to="/wines"> Wines </Link>
-              <Link to="/foods"> Food Types </Link>
-            </nav>
-          </BrowserRouter>
+
         </header>
         <main>
           <BrowserRouter>
