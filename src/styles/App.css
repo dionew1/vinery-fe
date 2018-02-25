@@ -2,6 +2,26 @@
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Tangerine', cursive;*/
 
+a {
+  color: #330036;
+}
+
+a:hover {
+  color: #568259;
+}
+
+a:active {
+  color: #330036;
+}
+
+nav a {
+  font-family: 'Tangerine', cursive;
+  font-weight: 600;
+  font-size: 1.7em;
+  text-decoration: none;
+  margin: 0 50px;
+}
+
 .app {
   text-align: center;
 }
@@ -21,17 +41,5 @@ font-family: 'Tangerine', cursive;*/
 }
 
 .app-glass {
-  width: 3%;
-}
-
-a {
-  color: #330036;
-}
-
-a:hover {
-  color: #568259;
-}
-
-a:active {
-  color: #330036;
+  width: 30px;
 }
