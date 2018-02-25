@@ -2,11 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
-const checkUrl = () => {
-  let splitUrl = document.URL.split('/')
-  let path = splitUrl[3]
-  return path
-}
+// const checkUrl = () => {
+//   let splitUrl = document.URL.split('/')
+//   let path = splitUrl[3]
+//   return path
+// }
 
 const Nav = () => {
   return(
