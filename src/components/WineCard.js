@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/WineCard.css';
+import React from 'react'
+import '../styles/WineCard.css'
 
 const WineCard = (props) => {
   let wine = props.wine
