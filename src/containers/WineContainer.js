@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import WineList from '../components/WineList'
 import { getAllWines } from '../utils/requests'
 
-class WinesContainer extends Component {
+class WineContainer extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -23,4 +23,4 @@ class WinesContainer extends Component {
   }
 }
 
-export default WinesContainer
+export default WineContainer
