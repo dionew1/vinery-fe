@@ -1,7 +1,7 @@
 const url = 'https://vinery-be.herokuapp.com'
 
 const handleRespone = (response) => {
-  return resonse.json()
+  return response.json()
     .then(json => {
       if(!response.ok) {
         const error = {
@@ -39,20 +39,22 @@ const getWine = (wineId) => {
     .catch((error) => console.error({ error }))
 }
 
-const getAllWineCategories => () => {
+const getAllWineCategories = () => {
   return fetch(`${url}/api/v1/wine-categories`)
     .then((response) => handleRespone(response))
     .catch((error) => console.error({ error }))
 }
 
-const getWinesForWineCategory => (wineCategoryId) {
+const getWinesForWineCategory = (wineCategoryId) => {
   return fetch(`${url}/api/v1/wine-categories/${wineCategoryId}/wines`)
     .then((response) => handleRespone(response))
     .catch((error) => console.error({ error }))
 }
 
-const getFoodsForWineCategory => (wineCategoryId) {
+const getFoodsForWineCategory = (wineCategoryId) => {
   return fetch(`${url}/api/v1/wine-categories/${wineCategoryId}/foods`)
     .then((response) => handleRespone(response))
     .catch((error) => console.error({ error }))
 }
+
+export { getAllWines }

@@ -2,51 +2,44 @@
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Tangerine', cursive;*/
 
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #d1d2f9;
-  height: 150px;
-  padding: 20px;
+a {
   color: #330036;
 }
 
-.App-title {
+a:hover {
+  color: #568259;
+}
+
+a:active {
+  color: #330036;
+}
+
+nav a {
   font-family: 'Tangerine', cursive;
+  font-weight: 600;
+  font-size: 1.7em;
+  text-decoration: none;
+  margin: 0 50px;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-header {
+  background-color: #d1d2f9;
+  padding: 10px;
+  color: #330036;
+}
+
+.app-title {
+  font-family: 'Tangerine', cursive;
+  font-weight: 600;
   font-size: 3em;
   margin: 15px;
+  display: inline-block;
 }
 
-.App-glass {
-  width: 8%;
-  height: 40%;
-}
-
-.Container {
-  display: flex;
-  flex-direction: row;
-}
-
-.Home-page {
-  flex-direction: column;
-  width: 33%;
-  height: 100%;
-  margin: 10px;
-}
-
-.Home-page-header {
-  font-family: 'Tangerine', cursive;
-  font-size: 2.2em;
-}
-
-.Home-page-paragraph {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.9em;
-}
-
-.Home-page-image {
-  height: 80%;
-  width: 80%;
+.app-glass {
+  width: 30px;
 }
