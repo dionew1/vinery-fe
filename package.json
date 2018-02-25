@@ -1,6 +1,5 @@
 {
   "name": "vinery-fe",
-  "proxy": "https://vinery-be.herokuapp.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

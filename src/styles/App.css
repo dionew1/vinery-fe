@@ -2,24 +2,24 @@
 /*font-family: 'Open Sans', sans-serif;
 font-family: 'Tangerine', cursive;*/
 
-.App {
+.app {
   text-align: center;
 }
 
-.App-header {
+.app-header {
   background-color: #d1d2f9;
   height: 150px;
   padding: 20px;
   color: #330036;
 }
 
-.App-title {
+.app-title {
   font-family: 'Tangerine', cursive;
   font-size: 3em;
   margin: 15px;
 }
 
-.App-glass {
+.app-glass {
   width: 10%;
   height: 40%;
 }
