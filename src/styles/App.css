@@ -8,27 +8,23 @@ font-family: 'Tangerine', cursive;*/
 
 .app-header {
   background-color: #d1d2f9;
-  height: 150px;
-  padding: 20px;
+  padding: 10px;
   color: #330036;
 }
 
 .app-title {
   font-family: 'Tangerine', cursive;
+  font-weight: 600;
   font-size: 3em;
   margin: 15px;
+  display: inline-block;
 }
 
 .app-glass {
-  width: 10%;
-  height: 40%;
+  width: 3%;
 }
 
 a {
-  color: black;
-}
-
-a:visited {
   color: #330036;
 }
 

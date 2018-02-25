@@ -6,7 +6,6 @@ const WineCard = (props) => {
   return(
     <div className="wine-row">
       <h1 className="wine-name">{ wine.name }</h1>
-      <p className="wine-category">{ wine.wine_category_id }</p>
       <p className="wine-description">{ wine.description }</p>
       <img className="wine-image"
         src="wine-glass-by-kym-ellis.jpg"
