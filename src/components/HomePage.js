@@ -7,21 +7,33 @@ const HomePage = () => {
     <main>
       <div className="Home-page-container">
         <div className="Home-page">
-          <h1 className="Home-page-header">Browse Wine Categories</h1>
+          <h1 className="Home-page-header">
+            <Link to="/wine-categories">
+              Browse Wine Categories
+            </Link>
+          </h1>
           <p className="Home-page-paragraph">Not sure what style of wine you are looking for? Come explore!</p>
           <img className="Home-page-image"
             src="dusty-bottles-by-marco-mornati.jpg"
             alt="Dusty Wine Bottles by Marco Mornati"/>
         </div>
         <div className="Home-page">
-          <h1 className="Home-page-header">Browse Wines</h1>
+          <h1 className="Home-page-header">
+            <Link to="/wines">
+              Browse Wines
+            </Link>
+          </h1>
           <p className="Home-page-paragraph">Come uncork a bottle and discover what wines suit your taste!</p>
           <img className="Home-page-image"
             src="corks-by-elisha-terada.jpg"
             alt="Wine Corks by Elisha Terada"/>
         </div>
         <div className="Home-page">
-          <h1 className="Home-page-header">Browse Food Types</h1>
+          <h1 className="Home-page-header">
+            <Link to="/foods">
+              Browse Food Types
+            </Link>
+          </h1>
           <p className="Home-page-paragraph">View the different food types that pair well with wine.</p>
           <img className="Home-page-image"
             src="food-and-wine-by-brooke-lark.jpg"

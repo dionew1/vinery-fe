@@ -20,8 +20,12 @@ class App extends Component {
         </header>
         <main>
           <BrowserRouter>
-            <Route path="/" component={ HomePage }/>
-            
+            <div>
+              <Route path="/" component={ HomePage }/>
+              <Route path="/wine-categories"/>
+              <Route path="/wines"/>
+              <Route path="/foods"/>
+            </div>
           </BrowserRouter>
         </main>
       </div>
