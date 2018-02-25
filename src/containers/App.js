@@ -5,6 +5,7 @@ import Nav from '../components/Nav'
 import HomePage from '../components/HomePage'
 import WineContainer from './WineContainer'
 import FoodContainer from './FoodContainer'
+import WineCategoryContainer from './WineCategoryContainer'
 
 class App extends Component {
   constructor(props) {
@@ -17,19 +18,19 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="app">
-        <header className="app-header">
-          <img className="app-glass" src="favicon.ico" alt="Wine Glass"/>
-          <h1 className="app-title">Welcome to Vinery</h1>
-          <Nav/>
-        </header>
-        <main>
+          <header className="app-header">
+            <img className="app-glass" src="favicon.ico" alt="Wine Glass"/>
+            <h1 className="app-title">Welcome to Vinery</h1>
+            <Nav/>
+          </header>
+          <main>
             <Switch>
-              <Route path="/wine-categories"/>
+              <Route path="/wine-categories" component={ WineCategoryContainer }/>
               <Route path="/wines" component={ WineContainer }/>
               <Route path="/foods" component={ FoodContainer }/>
               <Route path="/" component={ HomePage }/>
             </Switch>
-        </main>
+          </main>
         </div>
       </BrowserRouter>
     )

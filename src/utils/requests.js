@@ -57,4 +57,4 @@ const getFoodsForWineCategory = (wineCategoryId) => {
     .catch((error) => console.error({ error }))
 }
 
-export { getAllWines, getAllFoods }
+export { getAllWines, getAllFoods, getAllWineCategories }
