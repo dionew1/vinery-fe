@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Food.css'
 
 const createAltTag = (food) => {
   return(

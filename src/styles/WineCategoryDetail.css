@@ -1,0 +1,22 @@
+.detail-header {
+    font-size: 60px;
+    font-family: Tangerine;
+    font-weight: 600;
+    margin: 20px auto;
+    width: 400px;
+    border-bottom: 2px solid black;
+}
+
+.wine-category-wine-detail-module,
+.wine-category-food-detail-module {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.wine-category-wine-detail-module {
+  width: 55%;
+}
+
+.wine-category-food-detail-module {
+  width: 44%;
+}

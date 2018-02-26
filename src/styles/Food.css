@@ -1,0 +1,30 @@
+.food-row {
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  height: 130px;
+  cursor: pointer;
+}
+
+.food-row:hover {
+  box-shadow: 3px 3px 3px 3px #ddd;
+}
+
+.food-name {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 1;
+  font-size: 38px;
+  font-family: Tangerine;
+  font-weight: 600;
+}
+
+.food-image {
+  height: 130px;
+  width: 180px;
+  opacity: 0.4;
+  border-radius: 3px;
+
+}
