@@ -58,4 +58,4 @@ const getFoodsForWineCategory = (wineCategoryId) => {
 }
 
 export { getAllWines, getAllFoods, getAllWineCategories, getWinesForWineCategory,
-         getFoodsForWineCategory}
+         getFoodsForWineCategory, getWine}

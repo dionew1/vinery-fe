@@ -1,11 +1,11 @@
 .wine-image {
   border-radius: 50%;
-  height: 100px;
+  height: 120px;
   display: inline-block;
 }
 
 .wine-row {
-  padding: 20px 0;
+  padding: 15px 0;
   position: relative;
 }
 
@@ -14,7 +14,7 @@
   display: inline-block;
   width: 500px;
   position: relative;
-  height: 100px;
+  height: 120px;
   margin-left: 30px;
 }
 
