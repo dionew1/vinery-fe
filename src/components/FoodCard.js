@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const createAltTag = (food) => {
   return(
-    food.image_url.split("/").pop()
+    (typeof food.image_url != "undefined")?food.image_url.split("/").pop() : ""
   )
 }
 
