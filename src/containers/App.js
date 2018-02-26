@@ -8,13 +8,9 @@ import FoodContainer from './FoodContainer'
 import WineCategoryContainer from './WineCategoryContainer'
 import WineCategoryDetailContainer from './WineCategoryDetailContainer'
 import WineFoodsContainer from './WineFoodsContainer'
+import FoodWinesContainer from './FoodWinesContainer'
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-    }
-  }
 
   render() {
     return (
@@ -31,6 +27,7 @@ class App extends Component {
               <Route path="/wine-categories" component={ WineCategoryContainer }/>
               <Route exact path="/wines/:name/:id/foods" component={ WineFoodsContainer }/>
               <Route path="/wines" component={ WineContainer }/>
+              <Route exact path="/foods/:name/:id/wines" component={ FoodWinesContainer }/>
               <Route path="/foods" component={ FoodContainer }/>
               <Route path="/" component={ HomePage }/>
             </Switch>

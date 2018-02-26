@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 const WineCard = (props) => {
   let wine = props.wine
-  let wineName = (typeof wine.name  != "undefined")?wine.name.replace(/ /g, "-") : ""
+  let wineName = (typeof wine.name != "undefined")?wine.name.replace(/ /g, "-") : ""
   return(
     <div className="wine-row">
       <img className="wine-image"
