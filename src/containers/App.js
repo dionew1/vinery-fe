@@ -7,6 +7,7 @@ import WineContainer from './WineContainer'
 import FoodContainer from './FoodContainer'
 import WineCategoryContainer from './WineCategoryContainer'
 import WineCategoryDetailContainer from './WineCategoryDetailContainer'
+import WineFoodsContainer from './WineFoodsContainer'
 
 class App extends Component {
   constructor(props) {
@@ -28,6 +29,7 @@ class App extends Component {
             <Switch>
               <Route exact path="/wine-categories/:name/:id" component={ WineCategoryDetailContainer }/>
               <Route path="/wine-categories" component={ WineCategoryContainer }/>
+              <Route exact path="/wines/:name/:id/foods" component={ WineFoodsContainer }/>
               <Route path="/wines" component={ WineContainer }/>
               <Route path="/foods" component={ FoodContainer }/>
               <Route path="/" component={ HomePage }/>
