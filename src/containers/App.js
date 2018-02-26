@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import HttpsRedirect from 'react-https-redirect'
 import '../styles/App.css'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import Nav from '../components/Nav'
@@ -14,26 +15,30 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
-        <div className="app">
-          <header className="app-header">
-            <img className="app-glass" src="/favicon.ico" alt="Wine Glass"/>
-            <h1 className="app-title">Welcome to Vinery</h1>
-            <Nav/>
-          </header>
-          <main>
-            <Switch>
-              <Route exact path="/wine-categories/:name/:id" component={ WineCategoryDetailContainer }/>
-              <Route path="/wine-categories" component={ WineCategoryContainer }/>
-              <Route path="/wines/:name/:id/foods" component={ WineFoodsContainer }/>
-              <Route path="/wines" component={ WineContainer }/>
-              <Route path="/foods/:name/:id/wines" component={ FoodWinesContainer }/>
-              <Route path="/foods" component={ FoodContainer }/>
-              <Route path="/" component={ HomePage }/>
-            </Switch>
-          </main>
-        </div>
-      </BrowserRouter>
+      <Providers>
+        <HttpsRedirect>
+          <BrowserRouter>
+            <div className="app">
+              <header className="app-header">
+                <img className="app-glass" src="/favicon.ico" alt="Wine Glass"/>
+                <h1 className="app-title">Welcome to Vinery</h1>
+                <Nav/>
+              </header>
+              <main>
+                <Switch>
+                  <Route exact path="/wine-categories/:name/:id" component={ WineCategoryDetailContainer }/>
+                  <Route path="/wine-categories" component={ WineCategoryContainer }/>
+                  <Route path="/wines/:name/:id/foods" component={ WineFoodsContainer }/>
+                  <Route path="/wines" component={ WineContainer }/>
+                  <Route path="/foods/:name/:id/wines" component={ FoodWinesContainer }/>
+                  <Route path="/foods" component={ FoodContainer }/>
+                  <Route path="/" component={ HomePage }/>
+                </Switch>
+              </main>
+            </div>
+          </BrowserRouter>
+        </HttpsRedirect>
+      </Providers>
     )
   }
 }
