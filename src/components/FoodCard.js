@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 const createAltTag = (food) => {
   return(
     food.image_url.split("/").pop()
