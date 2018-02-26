@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import WineList from '../components/WineList'
-import { getAllWines } from '../utils/requests'
+import { getAllWines, getWineCategory } from '../utils/requests'
 
 class WineContainer extends Component {
   constructor(props) {
@@ -13,6 +13,7 @@ class WineContainer extends Component {
   componentDidMount() {
     getAllWines()
       .then((wines) => this.setState({ wines: wines }))
+      // .then((wine))
       .catch((error) => console.error({ error }))
   }
 
