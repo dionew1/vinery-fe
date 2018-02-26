@@ -21,6 +21,12 @@ const getAllFoods = () => {
     .catch((error) => console.error({ error }))
 }
 
+const getFood = (foodId) => {
+  return fetch(`${url}/api/v1/foods/${foodId}`)
+    .then((response) => handleRespone(response))
+    .catch((error) => console.error({ error }))
+}
+
 const getWineCategoriesForFood = (foodId) => {
   return fetch(`${url}/api/v1/foods/${foodId}/wine-categories`)
     .then((response) => handleRespone(response))
@@ -58,4 +64,4 @@ const getFoodsForWineCategory = (wineCategoryId) => {
 }
 
 export { getAllWines, getAllFoods, getAllWineCategories, getWinesForWineCategory,
-         getFoodsForWineCategory, getWine, getWineCategoriesForFood}
+         getFoodsForWineCategory, getWine, getWineCategoriesForFood, getFood}
