@@ -13,7 +13,6 @@ class WineContainer extends Component {
   componentDidMount() {
     getAllWines()
       .then((wines) => this.setState({ wines: wines }))
-      // .then((wine))
       .catch((error) => console.error({ error }))
   }
 
