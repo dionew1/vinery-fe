@@ -25,9 +25,9 @@ class App extends Component {
             <Switch>
               <Route exact path="/wine-categories/:name/:id" component={ WineCategoryDetailContainer }/>
               <Route path="/wine-categories" component={ WineCategoryContainer }/>
-              <Route exact path="/wines/:name/:id/foods" component={ WineFoodsContainer }/>
+              <Route path="/wines/:name/:id/foods" component={ WineFoodsContainer }/>
               <Route path="/wines" component={ WineContainer }/>
-              <Route exact path="/foods/:name/:id/wines" component={ FoodWinesContainer }/>
+              <Route path="/foods/:name/:id/wines" component={ FoodWinesContainer }/>
               <Route path="/foods" component={ FoodContainer }/>
               <Route path="/" component={ HomePage }/>
             </Switch>
