@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/WineList.css';
 import WineCard from './WineCard'
 
 

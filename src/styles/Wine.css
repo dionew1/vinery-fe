@@ -1,0 +1,43 @@
+.wine-image {
+  border-radius: 50%;
+  height: 100px;
+  display: inline-block;
+}
+
+.wine-row {
+  padding: 20px 0;
+  position: relative;
+}
+
+.wine-details {
+  text-align: center;
+  display: inline-block;
+  width: 500px;
+  position: relative;
+  height: 100px;
+  margin-left: 30px;
+}
+
+.wine-details:hover {
+    box-shadow: 3px 3px 3px 3px #ddd;
+    cursor: pointer;
+}
+
+.wine-detail-module {
+  position: absolute;
+  top: 11px;
+  width: 100%;
+}
+
+.wine-name {
+  font-family: Tangerine;
+  font-size: 38px;
+  font-weight: 600;
+  color: #330036;
+}
+
+.wine-description {
+  font-family: "Open Sans";
+  font-size: 14px;
+  color: #212227;
+}
