@@ -5,7 +5,7 @@ Welcome to vinery-fe. This web application consumes vinery-be and provides a use
 
 Production URL: `https://vinery-fe.herokuapp.com/`
 
-To visit Back-end Repo: `https://github.com/dionew1/vinery-be`
+Back-end Repo: `https://github.com/dionew1/vinery-be`
 
 Production Back-end URL: `https://vinery-be.herokuapp.com/`
 
