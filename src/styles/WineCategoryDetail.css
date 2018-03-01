@@ -3,7 +3,7 @@
     font-family: Tangerine;
     font-weight: 600;
     margin: 20px auto;
-    width: 400px;
+    width: 95%;
     border-bottom: 2px solid black;
 }
 
@@ -19,4 +19,21 @@
 
 .wine-category-food-detail-module {
   width: 44%;
+}
+
+.wine-details {
+  width: 75%;
+  height: 85px;
+  margin-left: 0;
+}
+
+.wine-image {
+  height: 85px;
+}
+
+@media only screen and (max-width: 500px) {
+  .wine-category-wine-detail-module,
+  .wine-category-food-detail-module {
+    width: 95%;
+  }
 }

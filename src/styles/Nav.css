@@ -1,0 +1,53 @@
+a {
+  color: #330036;
+}
+
+a:hover {
+  color: #568259;
+}
+
+a:active {
+  color: #330036;
+}
+
+nav a {
+  font-family: 'Tangerine', cursive;
+  font-weight: 600;
+  font-size: 1.7em;
+  text-decoration: none;
+  margin: 0 50px;
+}
+
+.menu-toggle {
+  height: 25px;
+  display: none;
+  cursor: pointer;
+}
+
+.displayNone {
+  display: none;
+}
+
+.desktop {
+  display: block;
+}
+
+@media only screen and (max-width: 732px) {
+  .desktop {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: inline;
+    margin: 20px;
+  }
+
+  .navLinks {
+    background: #eee;
+  }
+
+  .navLinks a {
+    display: block;
+    padding: 10px;
+  }
+}

@@ -1,6 +1,6 @@
 .wine-category-row {
   display: inline-block;
-  min-width: 150px;
+  width: 220px;
   margin: 10px;
   padding: 50px;
   background: #568259;
@@ -15,4 +15,11 @@
   color: #568259;
   background: #eee;
   box-shadow: 3px 3px 3px 3px #d1d2f9;
+}
+
+@media only screen and (max-width: 480px) {
+  .wine-category-row {
+    width: 95%;
+  }
+
 }

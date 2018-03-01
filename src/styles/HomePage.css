@@ -6,7 +6,6 @@
 
 .home-page {
   flex-direction: column;
-  width: 33%;
   height: 100%;
   margin: 10px;
 }
@@ -28,4 +27,17 @@
 .home-page-image {
   height: 80%;
   width: 80%;
+}
+
+@media only screen and (max-width: 694px) {
+
+  .home-page-container {
+    flex-flow: column;
+  }
+
+  .home-page-image {
+    height: 50%;
+    width: 50%;
+  }
+
 }

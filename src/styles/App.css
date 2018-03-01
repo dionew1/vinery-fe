@@ -1,26 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Tangerine');
-/*font-family: 'Open Sans', sans-serif;
-font-family: 'Tangerine', cursive;*/
-
-a {
-  color: #330036;
-}
-
-a:hover {
-  color: #568259;
-}
-
-a:active {
-  color: #330036;
-}
-
-nav a {
-  font-family: 'Tangerine', cursive;
-  font-weight: 600;
-  font-size: 1.7em;
-  text-decoration: none;
-  margin: 0 50px;
-}
 
 .app {
   text-align: center;
@@ -30,6 +8,7 @@ nav a {
   background-color: #d1d2f9;
   padding: 10px;
   color: #330036;
+  width: 100%;
 }
 
 .app-title {
