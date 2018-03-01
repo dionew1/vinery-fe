@@ -29,6 +29,12 @@ class Nav extends Component {
   render() {
     return(
       <nav>
+        <div className="desktop">
+          <Link to="/"> Home </Link>
+          <Link to="/wine-categories"> Wine Categories </Link>
+          <Link to="/wines"> Wines </Link>
+          <Link to="/foods"> Food Types </Link>
+        </div>
         <div className="mobile" onClick={ this.handleClick }>
           <img className="menu-toggle" src="/menu.png" alt="menu-icon"/>
         </div>
