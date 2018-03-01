@@ -41,3 +41,13 @@
   font-size: 14px;
   color: #212227;
 }
+
+@media only screen and (max-width: 710px) {
+  .wine-image{
+    height: 85px;
+  }
+  .wine-details{
+    width: 75%;
+    height: 85px;
+  }
+}

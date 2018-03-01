@@ -32,7 +32,7 @@ nav a {
   display: block;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 732px) {
   .desktop {
     display: none;
   }
